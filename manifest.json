@@ -1,7 +1,6 @@
 {
   "short_name": "Robo Friend",
   "name": "RoboFriend web app",
-  "id": "/roboFriend/",
   "icons": [
     {
       "src": "favicon.ico",
@@ -11,8 +10,7 @@
     {
       "src": "/144x144.png",
       "sizes": "144x144",
-      "type": "image/png",
-      "porpuse": "any"
+      "type": "image/png"
     },
     {
       "src": "/android-chrome-192x192.png",
@@ -40,7 +38,7 @@
       "label": "Homescreen of RoboFriend App"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
