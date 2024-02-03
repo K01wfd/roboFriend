@@ -1,11 +1,43 @@
 {
   "short_name": "Robo Friend",
   "name": "RoboFriend web app",
+  "id": "/roboFriend/",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64 48x48 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "porpuse": "any"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "1536x846",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen of RoboFriend App"
+    },
+    {
+      "src": "/screenshot2.png",
+      "sizes": "1536x846",
+      "type": "image/png",
+      "label": "Homescreen of RoboFriend App"
     }
   ],
   "start_url": ".",
